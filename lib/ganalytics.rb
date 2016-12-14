@@ -1,0 +1,3 @@
+module Ganalytics
+  # Your code goes here...
+end
