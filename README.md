@@ -1,8 +1,8 @@
 # Ganalytics
-Short description and motivation.
+Google Analytics ReportV4 for Rails
 
 ## Usage
-How to use my plugin.
+Upcoming.
 
 ## Installation
 Add this line to your application's Gemfile:
