@@ -1,5 +1,5 @@
 module Ganalytics
   class Engine < ::Rails::Engine
-    isolate_namespace Analytics
+    isolate_namespace Ganalytics
   end
 end
