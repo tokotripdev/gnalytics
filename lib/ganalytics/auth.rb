@@ -13,7 +13,7 @@ module Ganalytics
 
 		def auth
 			
-			json_key = File.open("#{Rails.root}/GojekClientApi-88343b29ffdb.json")
+			json_key = File.open("#{Rails.root}/boxkode-5eb440214a23.json")
 			scope = ["https://www.googleapis.com/auth/analytics.readonly"]
 		  	ServiceAccountCredentials.make_creds({:json_key_io => json_key,:scope => scope})
 		end

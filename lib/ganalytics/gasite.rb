@@ -3,7 +3,7 @@ module Ganalytics
 	class Gasite
 
 		def initialize()
-			@authorization = Analytics::Auth.new
+			@authorization = Ganalytics::Auth.new
 			@client = AnalyticsReportingService.new
 		  	@client.authorization = @authorization.auth
 		end
